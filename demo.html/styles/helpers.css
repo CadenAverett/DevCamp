@@ -1,0 +1,19 @@
+/* Helpers styles */
+.spacer60 {
+    height: 60px;
+    width: 100%;
+}
+
+.anchor-link {
+    text-decoration: none;
+}
+
+.anchor-link:hover {
+    outline: none;
+}
+
+.anchor-link h1::after {
+    font-family: "Font Awesome 6 Free";
+    content: " \f0c1";
+    font-weight: 900;
+}
